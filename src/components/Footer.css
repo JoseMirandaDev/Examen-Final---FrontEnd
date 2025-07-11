@@ -1,0 +1,25 @@
+:root {
+  --color-lateral: #131016;
+  --color-texto-invertido: #fff;
+}
+
+.footer {
+  width: 100%;
+  background: var(--color-lateral);
+  color: var(--color-texto-invertido);
+  text-align: center;
+  padding: 14px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 200;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+}
+
